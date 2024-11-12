@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import AllMeetupPage from "./pages/AllMeetups";
 import FavoritesPage from "./pages/Favorites";
 import NewMeetupPage from "./pages/NewMeetup";
+import LandingPage from "./pages/LandingPage";
 import Layout from './pages/layout/Layout'
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
     
  
     <Routes>
+
+     <Route path='/event-management-web' element={<LandingPage />} />
 
      <Route path='/' element={<AllMeetupPage />} />
 

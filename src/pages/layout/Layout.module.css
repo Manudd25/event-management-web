@@ -2,4 +2,38 @@
   margin: 3rem auto;
   width: 90%;
   max-width: 40rem;
+  line-height: 3rem;
+}
+
+.background {
+  background-image: url("/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.h1,
+h1 {
+  font-size: 5rem;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow for better legibility */
+  margin: 0;
+  text-align: center;
+  margin-bottom: 5rem;
+  line-height: 5rem;
+}
+
+.LandingH1 {
+  position: relative;
+  margin-top: 90%;
+  margin-left: -30%;
+  white-space: nowrap;
+}
+
+.fav {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }

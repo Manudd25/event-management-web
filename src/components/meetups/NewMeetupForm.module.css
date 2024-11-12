@@ -3,6 +3,7 @@
     border: 1px solid rgba(0, 0, 0, 0.13);
     border-radius: 0.5rem;
     box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.26);
+    background-color: white;
   }
   
   .control {

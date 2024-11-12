@@ -4,7 +4,7 @@ import MainNavigation from './MainNavigation';
 
 function Layout(props) {
     return(
-        <div>
+        <div className={classes.background}>
          <MainNavigation />
          <main className={classes.main}>
         {props.children}

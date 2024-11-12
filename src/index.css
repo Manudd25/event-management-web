@@ -1,12 +1,16 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 
 body {
   font-family: sans-serif;
   margin: 0 auto;
   background-color: #dfdfdf;
 }
+
 
 h1, h2 {
   color: #333333;
@@ -24,26 +28,19 @@ h1, h2 {
 }
 
 .btn:hover {
-  background-color: #9c1458;
-  border-color: #9c1458;
+  background-color: #ecea78;
+  border-color: #ecea78;
 }
 
 .btn--alt {
   background-color: transparent;
-  color: #800040;
+  color: #ecea78;
 }
 
 .btn--alt:hover {
   background-color: #f8dae9;
 }
 
-.card {
-  background-color: white;
-  border-radius: 4px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  padding: 1rem;
-  width: 20rem;
-}
 
 .actions {
   text-align: right;

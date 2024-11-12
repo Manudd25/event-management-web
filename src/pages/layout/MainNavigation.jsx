@@ -11,6 +11,9 @@ function MainNavigation() {
         <nav>
             <ul>
                 <li>
+                <Link to='/event-management-web'>Home</Link>
+                </li>
+                <li>
                 <Link to='/'>All Meetups</Link>
                 </li>
                 <li>
