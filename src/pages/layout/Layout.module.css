@@ -5,7 +5,7 @@
   line-height: 3rem;
 }
 
-.background {
+.background, body{
   background-image: url("/background.jpg");
   background-position: center;
   background-size: cover;
