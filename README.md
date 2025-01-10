@@ -4,3 +4,4 @@ This React app displays a list of meetups, allows users to mark meetups as favor
 
 Have a look at it: https://manudd25.github.io/event-management-web/
 
+Technologies used: Vanilla JS, Firebase, CSS.
